@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+  xmlns:gap   = "http://phonegap.com/ns/1.0"
+  id          = "com.emisoravoxdei.appemisoravoxdei"
+  versionCode = "18"
+  version     = "1.0.8" >
+
+  <!-- versionCode is optional and Android only -->
+
+  <name>Emisora Vox Dei</name>
+
+  <description>
+    Sigue nuestra señal en vivo a través de la aplicación móvil
+  </description>
+
+  <author href="http://www.emisoravoxdei.com" email="celisconstantino01@gmail.com">
+    Constantino Celis Peñaranda
+  </author>
+
+
+
+  <access origin="*" subdomains="true" />
+
+  <icon src="img/ldpi.png" gap:platform="android" gap:density="ldpi" />
+  <icon src="img/mdpi.png" gap:platform="android" gap:density="mdpi" />
+  <icon src="img/hdpi.png" gap:platform="android" gap:density="hdpi" />
+  <icon src="img/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+  <icon src="img/xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+
+  <icon src="img/icon-57.png"            gap:platform="ios"        width="57" height="57" />
+  <icon src="img/icon-72.png"            gap:platform="ios"        width="72" height="72" />
+  <icon src="img/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
+  <icon src="img/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
+  <icon src="img/icon-120.png"         gap:platform="ios"        width="120" height="120" />
+  <icon src="img/icon-152.png"         gap:platform="ios"        width="152" height="152" />
+  <icon src="img/icon-76.png"         gap:platform="ios"        width="76" height="76" />
+
+  <preference name="ios-statusbarstyle" value="black-opaque" />
+  <preference name="orientation" value="portrait" />
+  <preference name="phonegap-version" value="3.7.0" />
+  <preference name="load-url-timeout" value="50000" />
+  <gap:plugin name="org.apache.cordova.media" version="0.2.8" />
+  <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+  <gap:plugin name="org.apache.cordova.core.inappbrowser" />
+  <gap:plugin name="cordova-plugin-network-information" source="npm" />
+  <plugin name="de.appplant.cordova.plugin.background-mode" spec="0.6.4" source="pgb" />
+</widget>

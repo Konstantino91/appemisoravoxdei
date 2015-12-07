@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  top: 0;
+}
+
+header {
+  background-color: #2980B9;
+  background-size: cover;
+  position: relative;
+  height: 60px;
+  width: 100%;
+  float: left;
+}
+
+.reproductor{
+  width: 100%;
+  float: left;
+  position: relative;
+  margin-top: 20px;
+  background-color: #2980B9;
+  background-size: cover;
+}
+
+audio{
+  width: 100%;
+  height: 23px;
+}
+
+html, body{
+  background: #ecf0f1;
+  height: 100%;
+}
+
+
+.oculto{
+  display: none !important;
+}
+
+.visible{
+  display: block;
+}
+
+.compartir{
+  float: right;
+  background: transparent url("../img/share.png") repeat scroll 0% 0%;
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+  top: 20px;
+  position: absolute;
+  right: 10px;
+}
+
+#home{
+  background: url("../img/home.png");
+  border-right: 0;
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 16px 0 0 5px;
+  float: left;
+}
+
+
+.titulo{
+  background: url('../img/emisora.png') no-repeat;
+  width: 200px;
+  height: 42px;
+  margin: auto;
+  margin-top: 7px;
+}
+
+#share-1, #share-2,#share-3, #share-4, #share-5{
+  visibility: hidden;
+  margin: 1em;
+  float: right;
+}
+
+#content{
+  position: relative;
+  margin: 0px;
+  top: 0px;
+  float: left;
+  width: 100%;
+}
+
+#content img{
+  float: none !important;
+}
+
+#noticia{
+
+}
+
+
+p{
+  font-size: 0.9rem;
+  text-align: justify;
+  line-height: 1.7em;
+  margin: 1em;
+}
+p a{
+  color:blue;
+}
+h1 {
+  font-size: 2.1rem;
+  line-height: 1.2em;
+}
+h2 {
+  font-size: 1.2rem;
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-family: "Open Sans",sans-serif;
+  text-align: justify;
+  color: #3A4145;
+  line-height: 1.2em;
+  margin: 1em;
+}
+img {
+  display: block;
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+  border:0;
+  padding: .6em 0;
+}
+
+
+article {
+  max-width: 700px;
+  padding: 0 13px;
+  margin: 0 auto;
+  text-align: justify;
+  position: relative;
+  top: 5px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+
+  img{
+    max-width: 80%;
+  }
+
+  .titulo{
+    max-height: 42px;
+    max-width: 200px;
+    margin: auto ;
+    margin-top: 7px;
+  }
+
+}
